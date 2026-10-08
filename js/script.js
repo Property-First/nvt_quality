@@ -84,17 +84,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-    const whatsappNumber = "917090146000";
-    const whatsappMessage = "Hi, I am interested in this property.";
+    // const whatsappNumber = "917090146000";
+    // const whatsappMessage = "Hi, I am interested in this property.";
 
-    document.querySelectorAll(".whatsapp-btn").forEach(button => {
-        button.addEventListener("click", function () {
+    // document.querySelectorAll(".whatsapp-btn").forEach(button => {
+    //     button.addEventListener("click", function () {
 
-            const message = encodeURIComponent(whatsappMessage);
+    //         const message = encodeURIComponent(whatsappMessage);
 
-            const whatsappURL =
-                `https://wa.me/${whatsappNumber}?text=${message}`;
+    //         const whatsappURL =
+    //             `https://wa.me/${whatsappNumber}?text=${message}`;
 
-            window.open(whatsappURL, "_blank");
-        });
-    });
+    //         window.open(whatsappURL, "_blank");
+    //     });
+    // });
