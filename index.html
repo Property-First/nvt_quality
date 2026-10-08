@@ -638,7 +638,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="#rera">RERA</a>
 </div>
 <div class="navactions">
-<a class="btn btn-gold whatsapp-btn">+91 7090146000</a>
+<a class="btn btn-gold whatsapp-btn" data-action="call">+91 7090146000</a>
 <!-- <button class="btn btn-gold open-modal" data-title="Schedule a Site Visit">Schedule Visit</button> -->
 </div>
 </div>
@@ -678,13 +678,13 @@ residential community.
         <div class="hero-actions">
 
             <button
-                class="btn btn-gold whatsapp-btn"
+                class="btn btn-gold whatsapp-btn" data-action="brochure"
                 data-title="Download NVT Quality Lifestyle Hope Farm Brochure">
                 Download Brochure
             </button>
 
             <button
-                class="btn btn-outline whatsapp-btn"
+                class="btn btn-outline whatsapp-btn" data-action="site-visit"
                 data-title="Schedule A Visit">
                 Schedule A Visit
             </button>
@@ -900,7 +900,7 @@ dedicated areas for wellness, leisure and community activities.
 
 
     <button
-        class="btn btn-black whatsapp-btn"
+        class="btn btn-black whatsapp-btn" data-action="request"
         data-title="Request NVT Quality Lifestyle Project Presentation">
         Request Project Presentation
     </button>
@@ -959,7 +959,7 @@ ft., with basic villa prices starting from approximately ₹5.73 Cr*
             </div>
 
             <div
-                class="imp_button imp_button-gold whatsapp-btn"
+                class="imp_button imp_button-gold whatsapp-btn" data-action="request"
                 data-title="Download NVT Quality Lifestyle Price Plan"
                 data-label="Price">
                 ₹5.73 Cr* onwards
@@ -983,7 +983,7 @@ ft., with basic villa prices starting from approximately ₹5.73 Cr*
             </div>
 
             <div
-                class="imp_button imp_button-gold whatsapp-btn"
+                class="imp_button imp_button-gold whatsapp-btn" data-action="request"
                 data-title="Download NVT Quality Lifestyle Price Plan"
                 data-label="Price">
                 On Request
@@ -1179,7 +1179,7 @@ everyday villa living.
 
 
         <button
-            class="btn btn-black whatsapp-btn"
+            class="btn btn-black whatsapp-btn" data-action="amenities"
             style="margin-top:20px"
             data-title="Get Complete NVT Quality Lifestyle Amenities">
 
@@ -1640,7 +1640,7 @@ should not be interpreted as an operational service.
  
 <section class="virtual">
 <div class="virtual-grid">
-<div class="virtual-img"><button class="play open-modal" data-title="Request NVT Quality Lifestyle Virtual Tour">▶</button></div>
+<div class="virtual-img"><button class="play open-modal whatsapp-btn" data-action="virtual" data-title="Request NVT Quality Lifestyle Virtual Tour">▶</button></div>
 <div class="virtual-copy">
 
     <div class="eyebrow">
@@ -1660,7 +1660,7 @@ off Whitefield-Sarjapur Road
     </p>
 
     <button
-        class="btn btn-gold whatsapp-btn"
+        class="btn btn-gold whatsapp-btn" data-action="virtual"
         data-title="Get NVT Quality Lifestyle Virtual Tour">
         View Virtual Tour
     </button>
@@ -1906,24 +1906,24 @@ with approved project assets before publication.
 }</style>
  
 <div class="floating">
-  <a class="fab wa whatsapp-btn">
+  <a class="fab wa whatsapp-btn" data-action="call">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
-  <a class="fab call whatsapp-btn">
+  <a class="fab call whatsapp-btn" data-action="call">
     <i class="fa-solid fa-phone"></i>
   </a>
 </div>
 
 <div class="mobilebar">
-    <button class="brochure whatsapp-btn" data-title="Download NVT Quality Lifestyle Brochure">
+    <button class="brochure whatsapp-btn" data-action="brochure" data-title="Download NVT Quality Lifestyle Brochure">
     <i class="fa-solid fa-file-arrow-down"></i> Brochure
   </button>
-  <a class="call whatsapp-btn">
+  <a class="call whatsapp-btn" data-action="call">
     <i class="fa-solid fa-phone"></i> Call
   </a>
 
-  <a class="whats whatsapp-btn">
+  <a class="whats whatsapp-btn" data-action="call">
     <i class="fa-brands fa-whatsapp"></i> WhatsApp
   </a>
 
@@ -2115,7 +2115,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<script>
+<!-- <script>
     const whatsappNumber = "917090146000";
     const whatsappMessage = "Hi! I came across NVT Codename: A Life in Bloom and really liked the project. I’d love to know more about the villas, pricing, and availability.";
 
@@ -2130,7 +2130,7 @@ document.addEventListener("DOMContentLoaded", function () {
             window.open(whatsappURL, "_blank");
         });
     });
-</script>
+</script> -->
 
 <script src="./js/script.js" defer></script>
 <script type="text/javascript">
